@@ -9,7 +9,7 @@ Ce projet est une API REST développée avec Spring Boot pour la gestion des uti
 1. Clonez le repository :
 2. 
     ```sh
-    git clone <URL_DU_REPOSITORY>
+    git clone https://github.com/JRinor/TP2_Qualite-de-developpement.git
     ```
 
 2. Assurez-vous d'avoir Java 17 et Maven installés :
@@ -113,6 +113,7 @@ La documentation Swagger est générée automatiquement. Accédez-y via :
 5. **Supprimer un utilisateur** :
     - Méthode : DELETE
     - URL : `http://localhost:8080/users/1`
+
 
 ### Notes
 
