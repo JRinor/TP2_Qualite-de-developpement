@@ -42,7 +42,7 @@ mvn test
 
 La documentation Swagger est générée automatiquement. Accédez-y via :
 
-[http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
+[http://localhost:8081/swagger-ui.html](http://localhost:8080/swagger-ui.html)
 
 ## Pour les utilisateurs de l'API
 
@@ -114,9 +114,4 @@ La documentation Swagger est générée automatiquement. Accédez-y via :
     - Méthode : DELETE
     - URL : `http://localhost:8080/users/1`
 
-
-### Notes
-
-- L'API utilise le port 8080 par défaut.
-- Assurez-vous que le serveur est en cours d'exécution avant d'effectuer des requêtes.
-```
+   
