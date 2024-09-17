@@ -62,13 +62,13 @@ La documentation Swagger est générée automatiquement. Accédez-y via :
     - Body (JSON) :
       ```json
       {
-        "firstName": "John",
-        "lastName": "Doe"
+        "firstName": "Mark",
+        "lastName": "Zuck"
       }
       ```
     - Commande `curl` :
       ```sh
-      curl -X POST http://localhost:8080/users -H "Content-Type: application/json" -d '{"firstName": "John", "lastName": "Doe"}'
+      curl -X POST http://localhost:8080/users -H "Content-Type: application/json" -d '{"firstName": "Mark", "lastName": "Zuck"}'
       ```
 
 2. **Récupérer tous les utilisateurs** :
@@ -93,13 +93,13 @@ La documentation Swagger est générée automatiquement. Accédez-y via :
     - Body (JSON) :
       ```json
       {
-        "firstName": "Jane",
-        "lastName": "Doe"
+        "firstName": "Mark",
+        "lastName": "Zuck"
       }
       ```
     - Commande `curl` :
       ```sh
-      curl -X PUT http://localhost:8080/users/1 -H "Content-Type: application/json" -d '{"firstName": "Jane", "lastName": "Doe"}'
+      curl -X PUT http://localhost:8080/users/1 -H "Content-Type: application/json" -d '{"firstName": "Jane", "lastName": "Zuck"}'
       ```
 
 5. **Supprimer un utilisateur** :
